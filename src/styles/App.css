@@ -1,0 +1,216 @@
+* , *::before , *::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 100vw;
+}
+
+#root {
+  background-color: #232946;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+}
+
+.main-container {
+  height: 100vh;
+  width: 100vw;
+}
+
+/*               NAVBAR              */
+
+header {
+  margin-bottom: 3%;
+}
+
+.navbar-container {
+  display: flex;
+  background-color: #ffc0ad;
+  justify-content: space-between;
+  list-style: none;
+  height: min-content;
+  width: 100%;
+}
+
+.navbar-link-item {
+  background-color: #ffc0ad;
+  margin: 0px 10px 0px 10px;
+  font-weight: bold;
+  font-size: x-large;
+  text-decoration: none;
+  color: #232946;
+  padding: 40px 40px 40px 40px;
+  white-space: nowrap;
+  border-radius: 13px;
+}
+
+@keyframes link-item-hover {
+  from {background-color: #ffc0ad ;}
+  to {background-color: rgba(255, 255, 255, 0.548);}
+}
+
+.navbar-link-item:hover {
+  animation-name:  link-item-hover;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+}
+
+.link-container {
+  display: flex;
+  margin-left: 3%;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-container {
+  margin-top: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-right: 11.5%;
+  border-radius: 13px;
+}
+
+.title-text {
+  font-family: serif;
+  white-space: nowrap;
+  padding: 50px 30px 50px 30px ;
+  font-size: xx-large;
+  font-style: italic;
+  font-weight: bold;
+  font-family: 'Lucida Handwriting';
+  color: white;
+}
+
+/*               BODY CONTENT                  */
+
+.loading-icon {
+  background-image: url(../images/loadingIcon.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 7%;
+  margin: 10%;
+  border-radius: 30px;
+
+  animation: rotate-icon ease;
+  animation-duration: 2s;
+}
+
+@keyframes rotate-icon {
+  from {transform : rotate(-360deg);
+        transform-origin: 50% 50%; }
+  to   {transform : rotate(360deg) ;
+        transform-origin: 50% 50%; }
+}
+
+.welcome-container {
+  display: flex;
+  width: 100%;
+  background-color: #b8c1ec;
+
+  animation: fadeIn ease-in-out 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  font-weight: bold;
+  margin-top: 2%;
+  margin-left: 4%;
+  margin-right: 4%;
+  margin-bottom: 2%;
+}
+
+.picture-container {
+  padding: 200px 200px 200px 200px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  margin-right: 7%;
+  background-image: url(../images/profile-pic.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+
+.content-container {
+  display: flex;
+  justify-content: center;
+  background-color: #b8c1ec;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.content-section {
+  color: black;
+  background-color: #abd1c6;
+  padding: 30px 30px 30px 30px;
+}
+
+.text {
+  font-size: 35px;
+  text-align: center;
+  align-items: center;
+
+}
+
+
+.pdf {
+  height: 73vh;
+  width: 60%;
+  background-size: cover;
+  margin-right: 1%;
+  margin-top: 1%;
+  border-radius: 10px;
+
+  animation: pdf-fade-in ease-in .5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes pdf-fade-in {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/*    Contact info    */
+
+.info-list-container {
+  list-style: none;
+  margin-right: 5%;
+}
+
+.info-item {
+  display: flex;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  width: min-content;
+}
+
+.email-icon {
+  background-image: url(../images/email-icon.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat ;
+  padding: 30px;
+  border-radius: 10px;
+  margin-right: 3%;
+}
+
+
