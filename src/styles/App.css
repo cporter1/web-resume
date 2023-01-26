@@ -67,8 +67,8 @@ header {
 
 .personals-container {
   margin-right: 2%;
-  padding-top: 2%;
-  padding-bottom: 2%;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .title-container {
@@ -211,8 +211,6 @@ header {
   display: flex;
   justify-content: center;
   background-color: #b8c1ec;
-  padding-top: 1%;
-  padding-bottom: 1%;
 }
 
 .content-section {
@@ -233,8 +231,8 @@ header {
   height: 73vh;
   width: 60%;
   background-size: cover;
-  margin-right: 1%;
-  margin-top: 1%;
+  /* margin-right: ;
+  margin-top: 1%; */
   border-radius: 10px;
 
   animation: pdf-fade-in ease-in .5s;
