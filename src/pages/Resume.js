@@ -13,7 +13,7 @@ export default function Resume() {
     if (isLoading) {
         return (
             <div className="content-container">
-                <div className="loading-icon"/>
+                <div className="loader"/>
             </div>
         )
     }

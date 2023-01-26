@@ -10,10 +10,8 @@ import { useState } from "react"
 
 function App() {
 
-
   const [windowWidth , setWidth] = useState(0)
     
-
   useEffect( () => {
       function updateWindowWidth() {
           setWidth(window.innerWidth)

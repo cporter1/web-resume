@@ -16,7 +16,6 @@ export default function NavBar() {
                     <div className="link-container">
                         <Link href='/'              className='navbar-link-item'>Home        </Link>
                         <Link href='/resume'        className='navbar-link-item'>Resume      </Link>
-                        <Link href='/projects'      className='navbar-link-item'>Projects    </Link>
                         <Link href='/contactinfo'   className='navbar-link-item'>Contact Info</Link>
                     </div>
 
@@ -36,7 +35,6 @@ export default function NavBar() {
                         <div className="navbar-dropdown">
                             <Link href='/'              className='navbar-drop-item'>Home        </Link>
                             <Link href='/resume'        className='navbar-drop-item'>Resume      </Link>
-                            <Link href='/projects'      className='navbar-drop-item'>Projects    </Link>
                             <Link href='/contactinfo'   className='navbar-drop-item'>Contact Info</Link>
                         </div>
                     </div>
