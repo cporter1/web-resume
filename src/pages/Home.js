@@ -1,6 +1,6 @@
 export default function Home() {
 
-    if(window.innerWidth > 850) {
+    if(window.innerWidth > 1050) {
         return (
             <div className="content-container">
                 <section className="welcome-container">
