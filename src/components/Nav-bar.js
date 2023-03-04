@@ -29,14 +29,14 @@ export default function NavBar() {
                             <div className="title-text">Colin Porter</div>
                         </div>
                         <div className="socials-container">
-                            <a className="socials-wrapper" href='https://github.com/cporter1' target='_blank'>
+                            <a className="socials-wrapper" href='https://github.com/cporter1' target='_blank' rel="noreferrer">
                                 <div className="github-icon"/>
                                 <div className="socials-label" style={{display:'flex'}}>
                                     github.com/cporter1
                                 </div>
                             </a>
                             <a className="socials-wrapper" href='https://linkedin.com/in/colin-porter-44a025174'
-                                target='_blank'>
+                                target='_blank' rel="noreferrer">
                                 <div className="linkedin-icon"/>
                                 <div className="socials-label" style={{display:'flex'}}>
                                     linkedin.com/colin-porter
@@ -66,14 +66,15 @@ export default function NavBar() {
                             <div className="title-text">Colin Porter</div>
                         </div>
                         <div className="socials-container">
-                            <a className="socials-wrapper" href='https://github.com/cporter1' target='_blank'>
+                            <a className="socials-wrapper" href='https://github.com/cporter1' target='_blank'
+                                rel="noreferrer">
                                 <div className={adaptMobile() + "github-icon"}/>
                                 <div className={adaptTextSize()} style={{display:'flex'}}>
                                     github.com/cporter1
                                 </div>
                             </a>
                             <a className="socials-wrapper" href='https://linkedin.com/in/colin-porter-44a025174'
-                                target='_blank'>
+                                target='_blank' rel="noreferrer">
                                 <div className={adaptMobile() + "linkedin-icon"}/>
                                 <div className={adaptTextSize()} style={{display:'flex'}}>
                                     linkedin.com/colin-porter
