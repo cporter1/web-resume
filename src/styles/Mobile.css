@@ -81,14 +81,18 @@
     white-space: nowrap;
 }
 
-.mobile-title-text {
-    font-family: serif;
-    white-space: nowrap;
-    padding: 50px 30px 50px 30px ;
-    font-size: xx-large;
-    font-style: italic;
-    font-weight: bold;
-    color: white;
+.hide-mobile-socials-label {
+    display: none !important;
+}
+
+.mobile-title-text {    
+  text-align: center;
+  font-family: serif;
+  white-space: nowrap;
+  font-style: italic;
+  font-weight: bold;
+  font-family: 'Lucida Handwriting';
+  color: white;
   }
 
 /*             Body           */
