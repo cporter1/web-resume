@@ -89,12 +89,12 @@ header {
   font-size: xx-large;
   font-style: italic;
   font-weight: bold;
-  font-family: 'Lucida Handwriting';
   color: white;
 }
 
 .socials-container {
   display: flex;
+  justify-content: center;
 }
 
 .socials-wrapper {
