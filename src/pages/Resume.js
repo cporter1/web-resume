@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-import resume from '../images/resume.jpg'
+import resume from '../images/resume.jpeg'
 
 export default function Resume() {
     
