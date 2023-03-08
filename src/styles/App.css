@@ -6,6 +6,7 @@
 
 body {
   width: 100vw;
+  overflow-x: hidden;
 }
 
 #root {
@@ -229,6 +230,7 @@ header {
 
 
 .pdf {
+  max-height:max-content;
   width: 50%;
   background-size: cover;
   /* margin-right: ;
