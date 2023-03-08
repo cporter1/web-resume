@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-import resume from '../images/resume.pdf'
+import resume from '../images/resume.jpg'
 
 export default function Resume() {
     
@@ -20,7 +20,7 @@ export default function Resume() {
     else {
         return (
             <div className="content-container">
-                <embed className="pdf" src={resume} alt='resume'/>
+                <img className="pdf" src={resume} alt='resume'/>
             </div>
     
         )
