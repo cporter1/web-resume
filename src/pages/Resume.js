@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-let resume = require('../images/resume.jpeg')
+// import resume from window.location.origin + '/resume.jpeg'
 
 export default function Resume() {
     
@@ -20,7 +20,7 @@ export default function Resume() {
     else {
         return (
             <div className="content-container">
-                <img className="pdf" src={resume} alt='resume'/>
+                <img className="pdf" src={window.location.origin + '/resume.jpeg'} alt='resume'/>
             </div>
     
         )
