@@ -20,7 +20,7 @@ export default function Resume() {
     else {
         return (
             <div className="content-container">
-                <img className="pdf" src={window.location.origin + '/resume.jpeg'} alt='resume'/>
+                <img className="pdf" src='/resume.jpeg' alt='resume'/>
             </div>
     
         )
